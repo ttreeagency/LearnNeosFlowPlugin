@@ -1,0 +1,5 @@
+prototype(Ttree.LearnNeosFlowPlugin:WeatherPlugin) {
+    package = 'Ttree.LearnNeosFlowPlugin'
+    controller = 'Weather'
+    action = 'get'
+}

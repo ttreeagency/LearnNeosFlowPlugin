@@ -1,0 +1,11 @@
+privilegeTargets:
+  Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege:
+    'Ttree.LearnNeosFlowPlugin:WeatherController':
+      matcher: 'method(Ttree\LearnNeosFlowPlugin\Controller\WeatherController->(get)Action())'
+
+roles:
+  'Neos.Flow:Everybody':
+    privileges:
+      -
+        privilegeTarget: 'Ttree.LearnNeosFlowPlugin:WeatherController'
+        permission: GRANT
