@@ -1,6 +1,6 @@
 'Ttree.LearnNeosFlowPlugin:WeatherPlugin':
   superTypes:
-    'Neos.Neos:Plugin': TRUE
+    'Neos.Neos:Plugin': true
   ui:
     label: 'Weather Plugin'
     group: 'plugins'

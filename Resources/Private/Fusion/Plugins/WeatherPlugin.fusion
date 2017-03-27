@@ -2,4 +2,10 @@ prototype(Ttree.LearnNeosFlowPlugin:WeatherPlugin) {
     package = 'Ttree.LearnNeosFlowPlugin'
     controller = 'Weather'
     action = 'get'
+
+    @cache {
+        mode = 'cached'
+
+        maximumLifetime = Ttree.UntilMidnight:Seconds
+    }
 }

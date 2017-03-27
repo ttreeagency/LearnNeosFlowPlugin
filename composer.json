@@ -3,7 +3,8 @@
     "description": "Learn Neos: How to integrate a Flow controller as a plugin in your Neos CMS project",
     "type": "neos-package",
     "require": {
-        "neos/neos": "^3.0.0"
+        "neos/neos": "^3.0.0",
+        "ttree/untilmidnight": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
